@@ -1,3 +1,5 @@
+-- Retrieve all employees who work in the “Engineering” department.
+
 select 
 e.emp_id,
 e.emp_name,

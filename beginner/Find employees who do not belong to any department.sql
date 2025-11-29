@@ -1,3 +1,5 @@
+-- Find employees who do not belong to any department.
+
 select 
 e.emp_id,
 e.emp_name,

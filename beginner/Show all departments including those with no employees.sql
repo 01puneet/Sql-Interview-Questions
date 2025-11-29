@@ -1,3 +1,5 @@
+-- Show all departments including those with no employees.
+
 select 
 d.dept_id,
 d.name,

@@ -1,3 +1,5 @@
+-- Show all employees including those who are not assigned to any department.
+
 select 
 e.emp_id,
 e.emp_name,
