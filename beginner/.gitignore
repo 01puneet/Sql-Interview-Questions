@@ -1,0 +1,19 @@
+List all employees along with their department names.
+
+Display all departments and the number of employees in each department.
+
+Show all employees including those who are not assigned to any department.
+
+Show all departments including those with no employees.
+
+Retrieve all employees who work in the “Engineering” department.
+
+Find employees who do not belong to any department.
+
+Display department names along with their managers.
+
+Retrieve the names of employees and their corresponding manager names.
+
+Show the total salary paid in each department.
+
+Find departments where no employee is assigned.
