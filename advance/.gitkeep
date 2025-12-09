@@ -1,0 +1,17 @@
+-- Show average salary per department.
+select * from(
+select
+e.dept_id,
+d.name as department_name,
+avg(e.salary) over(partition by e.dept_id) as avg_department_salary,
+ROW_NUMBER() over(partition by e.dept_id order by e.dept_id) as rn
+from employees e
+left join departments d
+on e.dept_id=d.dept_id
+)base 
+where rn=1;
+-- using join & group by
+select e.dept_id,d.name as department_name, avg(e.salary) as Average_Dept_salary from employees e
+left join departments d
+on e.dept_id=d.dept_id 
+group by 1,2;

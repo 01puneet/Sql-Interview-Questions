@@ -1,3 +1,4 @@
+List all employees with salary greater than 50000
 List all employees along with their department names.
 Display all departments and the number of employees in each department.
 Show all employees including those who are not assigned to any department.
@@ -10,6 +11,10 @@ Display all departments and the number of employees in each.
 Find the highest salary in each department.
 Find the second-highest salary in each department.
 Find employees earning more than their department average.sql
+Show average salary per department.
+Find departments where average salary > company average
+
+
 
 Retrieve the names of employees and their corresponding manager names.
 Display department names along with their managers.
