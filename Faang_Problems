@@ -13,9 +13,5 @@ Find the second-highest salary in each department.
 Find employees earning more than their department average.sql
 Show average salary per department.
 Find departments where average salary > company average
-
-
-
 Retrieve the names of employees and their corresponding manager names.
-Display department names along with their managers.
 
